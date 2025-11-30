@@ -243,6 +243,10 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
+.intro .section-title {
+    margin-top: 360px;
+}
+
 .intro-text {
     font-size: 1.2rem;
     line-height: 2;
