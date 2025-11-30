@@ -122,6 +122,7 @@ h1, h2, h3, h4 {
     justify-content: center;
     position: relative;
     text-align: center;
+    z-index: 1;
 }
 
 .hero-content {
@@ -232,6 +233,8 @@ h1, h2, h3, h4 {
 .intro {
     padding: 100px 0;
     background: white;
+    position: relative;
+    z-index: 0;
 }
 
 .intro-content {
@@ -250,6 +253,8 @@ h1, h2, h3, h4 {
 .courses {
     padding: 100px 0;
     background: var(--light-color);
+    position: relative;
+    z-index: 0;
 }
 
 .courses-grid {
@@ -323,6 +328,8 @@ h1, h2, h3, h4 {
 .experience {
     padding: 100px 0;
     background: white;
+    position: relative;
+    z-index: 0;
 }
 
 .experience-content {
@@ -395,6 +402,8 @@ h1, h2, h3, h4 {
 .chef {
     padding: 100px 0;
     background: var(--light-color);
+    position: relative;
+    z-index: 0;
 }
 
 .chef-content {
@@ -437,6 +446,8 @@ h1, h2, h3, h4 {
     padding: 100px 0;
     background: var(--dark-color);
     color: white;
+    position: relative;
+    z-index: 0;
 }
 
 .testimonials .section-title {
@@ -480,6 +491,8 @@ h1, h2, h3, h4 {
 .contact {
     padding: 100px 0;
     background: white;
+    position: relative;
+    z-index: 0;
 }
 
 .contact-content {
