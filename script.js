@@ -15,13 +15,25 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
     });
 });
 
-// Navbar scroll effect
+// Navbar scroll effect y ocultar scroll indicator
 window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
+    const scrollIndicator = document.querySelector('.scroll-indicator');
+    
     if (window.scrollY > 100) {
         navbar.classList.add('scrolled');
+        // Ocultar el indicador de scroll después del primer scroll
+        if (scrollIndicator) {
+            scrollIndicator.style.opacity = '0';
+            scrollIndicator.style.visibility = 'hidden';
+        }
     } else {
         navbar.classList.remove('scrolled');
+        // Mostrar el indicador cuando estamos arriba
+        if (scrollIndicator) {
+            scrollIndicator.style.opacity = '1';
+            scrollIndicator.style.visibility = 'visible';
+        }
     }
 });
 

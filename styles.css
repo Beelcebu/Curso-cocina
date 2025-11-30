@@ -148,6 +148,7 @@ h1, h2, h3, h4 {
     bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
+    transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
 .mouse {
